@@ -12,7 +12,7 @@ public class GifController {
     }
 
     @RequestMapping("/gifs")
-    public String getGifs() { 
+    public String getGifs() {
         return "Here are the GIFs";
     }
 }
